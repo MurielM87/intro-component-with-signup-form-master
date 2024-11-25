@@ -1,0 +1,15 @@
+{
+  "name": "intro-component-with-signup-form-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:style.css"
+  },
+  "author": "Muriel MARCHAL",
+  "license": "ISC",
+  "dependencies": {
+    "intro-component-with-signup-form-master": "file:",
+    "sass": "^1.80.6"
+  }
+}

@@ -1,0 +1,13 @@
+.error-message {
+    display: block;
+    text-align: left;
+    color: $red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 50%;
+}
+
+.error-border {
+    border: 2px solid $red;
+}

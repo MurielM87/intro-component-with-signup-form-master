@@ -1,0 +1,22 @@
+#background {
+    height: 100%;
+    
+  #background_desktop {
+    display: none;
+    @media screen and (min-width: map-get($breakpoints, desktop)) {
+      display: flex;
+      background-color: $red;
+      position: fixed;
+      z-index: -1;
+    }
+  }
+  #background_mobile {
+    display: flex;
+    background-color: $red;
+    position: fixed;
+    z-index: -1;
+    @media screen and (min-width: map-get($breakpoints, desktop)) {
+      display: none;
+    }
+  }
+}

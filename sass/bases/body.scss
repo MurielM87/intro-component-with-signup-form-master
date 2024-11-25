@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+    #container {
+        width: 100%;
+
+        @media screen and (min-width: map-get($breakpoints, desktop)) {
+            width: 1394px;
+          }
+    }
+}

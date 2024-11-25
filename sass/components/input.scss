@@ -1,0 +1,33 @@
+#input {
+  width: 100%;
+
+  #myForm {
+    width: 90%;
+    margin: 15px;
+    padding-top: 20px;
+    background-color: $white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 11px -2px rgba(0, 0, 0, 0.7);
+  }
+
+  .input_img {
+    @include flex-center-row;
+    position: relative;
+
+    input {
+      width: 92%;
+      margin: 10px;
+    }
+    .error_img {
+      display: none;
+      width: 15px;
+      position: absolute;
+      right: 10%;
+      top: 32%;
+
+      @media screen and (min-width: map-get($breakpoints, desktop)) {
+        right: 5%;
+      }
+    }
+  }
+}

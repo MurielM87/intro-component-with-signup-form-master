@@ -1,0 +1,9 @@
+#card {
+    @include flex-center-column;
+
+    @media screen and (min-width: map-get($breakpoints, desktop)) {
+        @include flex-start-row;
+        width: 70%;
+        margin: 100px auto 40px;
+    }
+}
